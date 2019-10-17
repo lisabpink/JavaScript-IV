@@ -25,7 +25,7 @@ class GameObject {
     }
     
     destroy(){
-        return `${this.name} was removed from the game for not properly grooming his mustashio.`
+        return `${this.name} was removed from the game for not properly grooming his mustashio nor sharpening his sword.`
     }
   }
   
@@ -47,10 +47,6 @@ class GameObject {
         return `${this.name} took damage.`
       }
   }
-  
-  
-
-  
   
   /*
     === Humanoid (Having an appearance or character resembling that of a human.) ===
@@ -75,9 +71,6 @@ class GameObject {
     return `${this.name} offers a greeting in ${this.language}`;
   }
 }
-  
-  
-  
   
   /*
     * Inheritance chain: GameObject -> CharacterStats -> Humanoid
